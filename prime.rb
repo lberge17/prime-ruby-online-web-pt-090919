@@ -1,7 +1,7 @@
 def prime?(n)
   i = 2
   if n <= 1
-    false
+    return false
   else
     until i == n 
     if i < n && n % i == 0
