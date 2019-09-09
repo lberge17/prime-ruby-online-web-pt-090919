@@ -12,7 +12,7 @@ def prime?(n)
       else
         return true
       end
-      divisor += 1
+      i += 1
     end
   end
 end
