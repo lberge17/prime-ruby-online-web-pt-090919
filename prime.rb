@@ -2,6 +2,6 @@ def prime?(n)
   if n == 2
     true
   else
-    true
+    false
   end
 end
