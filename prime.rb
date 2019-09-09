@@ -4,11 +4,11 @@ def prime?(n)
     return false
   else
     until i > n 
-      if n % i == 0
-        return false
-        break
-      elsif i == n
+      if i == n
         return true
+        break
+      elsif n % i == 0
+        return false
         break
       else
         i += 1
