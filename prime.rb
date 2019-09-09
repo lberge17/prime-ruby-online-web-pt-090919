@@ -1,8 +1,6 @@
 def prime?(n)
   i = 2
-  if n.between?(2, 3)
-    true
-  elsif n <= 1
+  if n <= 1
     false
   else
     until i == n 
