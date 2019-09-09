@@ -1,12 +1,12 @@
 def prime?(n)
-  divisor = 2
+  i = 2
   if n.between?(1, 3)
     true
   elsif n <= 0
     false
   else
-    until divisor == n do
-      if n % divisor == 0
+    until i == n do
+      if n % i == 0
         false
         break
       else
