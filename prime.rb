@@ -8,7 +8,6 @@ def prime?(n)
     if i < n
       if n % i == 0
         return false
-        break
       end
       i += 1
     else
