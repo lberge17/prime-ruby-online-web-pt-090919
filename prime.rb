@@ -1,8 +1,6 @@
 def prime?(n)
   i = 2
-  if n <= 1
-    return false
-  else
+  if n > 1
     until i > n 
       if i == n
         return true
