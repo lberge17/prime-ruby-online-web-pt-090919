@@ -4,14 +4,10 @@ def prime?(n)
     true
   elsif n <= 1
     false
+  elsif i < n || n % i == 0
+    false
   else
-    if i < n
-      if n % i == 0
-        return false
-      end
-      i += 1
-    else
-      return true
-    end
+    n % i
+    i += 1
   end
 end
