@@ -6,8 +6,10 @@ def prime?(n)
     until i > n 
       if n % i == 0
         false
+        break
       elsif i == n
         true
+        break
       else
         i += 1
       end
