@@ -7,10 +7,10 @@ def prime?(n)
   else
     until i == n do
       if n % i == 0
-        false
+        return false
         break
       else
-        true
+        return true
       end
       divisor += 1
     end
