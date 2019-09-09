@@ -5,7 +5,7 @@ def prime?(n)
   elsif n <= 1
     false
   else
-    if i < n do
+    if i < n
       if n % i == 0
         return false
         break
