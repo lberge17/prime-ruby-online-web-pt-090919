@@ -11,6 +11,8 @@ def prime?(n)
         break
       end
       i += 1
+    else
+      return true
     end
   end
 end
