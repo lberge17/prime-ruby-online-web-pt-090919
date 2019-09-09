@@ -6,7 +6,7 @@ def prime?(n)
     until i > n 
       if n % i == 0
         false
-      if i == n
+      elsif i == n
         true
       else
         i += 1
