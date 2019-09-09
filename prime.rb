@@ -5,10 +5,10 @@ def prime?(n)
   else
     until i > n 
       if n % i == 0
-        false
+        return false
         break
       elsif i == n
-        true
+        return true
         break
       else
         i += 1
