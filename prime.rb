@@ -3,9 +3,11 @@ def prime?(n)
   if n <= 1
     return false
   else
-    until i == n 
+    until i > n 
       if n % i == 0
         false
+      if i == n
+        true
       else
         i += 1
       end
