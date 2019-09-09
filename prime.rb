@@ -12,5 +12,7 @@ def prime?(n)
         i += 1
       end
     end
+  else
+    return false
   end
 end
